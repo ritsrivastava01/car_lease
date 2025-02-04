@@ -1,0 +1,9 @@
+# Add files here to ignore them from prettier formatting
+
+/coverage
+.next
+.turbo
+.vscode
+node_modules
+**/.next
+**/generated/**
