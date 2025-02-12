@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${font.className} m-auto antialiased`}>
         <Header className="-mb-11" />
-        <div className="min-h-screen w-full bg-gray-100">{children}</div>
+        <div className="mx-auto max-w-7xl px-6 pt-16 md:px-8">{children}</div>
       </body>
     </html>
   );
