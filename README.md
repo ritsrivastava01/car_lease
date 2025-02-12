@@ -1,51 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Car Lease Promotion App
+
+This repository contains the source code for a Car Lease Promotion App. The app is designed to help users find and compare car lease deals. It provides a user-friendly interface to browse through various car lease options, filter them based on user preferences, and view detailed information about each lease deal.
+
+## Features
+
+- **Browse Lease Deals**: Users can browse through a list of available car lease deals.
+- **Filter Options**: Users can filter lease deals based on criteria such as car make, model, price range, and lease duration.
+- **Detailed View**: Users can view detailed information about each lease deal, including monthly payments, lease terms, and car specifications.
+- **Responsive Design**: The app is designed to be responsive and works well on both desktop and mobile devices.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the Car Lease Promotion App, follow these steps:
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) (version 6 or higher)
+
+### Installation
+
+1. Clone the repository:
 
 ```bash
+git clone https://github.com/yourusername/car_lease_promotion_app.git
+cd car_lease_promotion_app
+```
+2. Install the dependencies:
+```bash
+npm install
+```
+
+Running the App
+To run the app in development mode, use the following command:
+```
 npm run dev
 ```
 
-## Clear the Existing Git History
+This will create an optimized production build in the out directory.
 
-The boilerplate includes a script to remove the .git folder, allowing you to start with a fresh Git repository. Run the following command:
-
-```bash
-npm run clean:git
+Project Structure
+The project structure is as follows:
 ```
+car_lease_promotion_app/
+├── public/             # Static assets
+├── src/                # Source code
+│   ├── components/     # React components
+│   ├── pages/          # Next.js pages
+│   ├── styles/         # CSS styles
+│   └── utils/          # Utility functions
+├── .gitignore          # Git ignore file
+├── package.json        # npm package file
+├── README.md           # Project README file
+└── next.config.js      # Next.js configuration file
+```
+Contributing
+Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
 
-## Run App
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acknowledgements
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/) - The React framework used for building the app.
+- [Tailwind CSS](https://tailwindcss.com/) - The utility-first CSS framework used for styling.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Key Dependencies and Dev Dependencies
-
-### Dependencies
-
-1. clsx: A utility for conditionally joining CSS class names in React components.
-2. next-intl: A library for adding internationalization (i18n) support in Next.js applications.
-3. prettier-plugin-tailwindcss: A Prettier plugin to automatically sort Tailwind CSS classes for consistent styling.
-4. tailwind-merge: Merges Tailwind CSS class names intelligently, resolving conflicts between conflicting utilities.
-
-### Dev Dependencies
-
-1. @commitlint/config-conventional: Enforces standardized commit message conventions for consistent versioning.
-2. @trivago/prettier-plugin-sort-imports: Automatically sorts and organizes import statements for cleaner code.
-3. prettier-plugin-organize-imports: Groups and orders imports consistently to maintain code readability.
-
-...many more
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contact
+If you have any questions or need further assistance, please contact ritsrivastava@gmail.com.
